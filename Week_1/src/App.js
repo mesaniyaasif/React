@@ -7,6 +7,7 @@ import Counter from './Components/Counter';
 import EventBind from './Components/EventBind';
 import Literals from './Components/Literals';
 import PrarentComponent from './Components/PrarentComponent';
+import NameList from './Components/NameList';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <Counter/> */}
       {/* <EventBind/> */}
       {/* <Literals/> */}
-      <PrarentComponent/>
+      {/* <PrarentComponent/> */}
+      <NameList/>
     </div>
   );
 }

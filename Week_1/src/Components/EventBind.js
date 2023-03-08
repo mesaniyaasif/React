@@ -18,6 +18,7 @@ class EventBind extends Component {
         <div>{this.state.message}</div>
         <button onClick={this.click.bind(this)}>Click</button>
       </div>
+      
     )
   }
 }
